@@ -1,0 +1,42 @@
+#include <stdio.h>
+int main()
+{
+  float op=0;
+  float n1,n2,res;
+  printf ("bienvenida a mi calculadora\n");
+  printf ("escoge una opcionn\n");
+  printf ("1.-suma\n");
+  printf ("2.-resta\n");
+  printf ("3.-multiplicacion\n");
+  printf ("4.-divicion\n");
+  printf ("opcion");
+  scanf ("%d", &op);
+  printf ("ingresa dos cantidades separadas por espacio \n");
+  scanf ("%f %f",&n1,&n2);
+ switch (op)
+ {
+   default:
+    ("operacion no valida\n");
+    break;
+   case 1:
+    res= n1+n2;
+    printf ("el resultado %f\n",res);
+    break;
+   case 2:
+    res= n1-n2
+    printf ("el resultado es %f\n",res);
+    break;
+   case 3:
+    res= n1*n2 
+    printf ("el resultado es %fn\n",res);
+    break;
+   case 4:
+    res=n1/n2;
+    printf ("el resultado es %f\n",res);
+    break;
+  }
+  return 0 
+}
+
+
+   
