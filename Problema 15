@@ -1,0 +1,26 @@
+#include <stdio.h>
+
+int main() 
+{
+    int n = 0;
+    int r = 0;
+
+    printf("Número de personas: ");
+    scanf("%d", &n);
+
+    if (n > 200)
+    {
+        if (n <= 300) 
+            r = n * 85;
+    
+         else 
+            r = n * 75;
+    }
+    else 
+    {
+        r = n * 95;
+    }
+
+    printf("El costo total es %d\n", r);
+    return 0;
+}
